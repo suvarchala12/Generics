@@ -1,13 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System;
-namespace Generics
-{
-    class program
-    {
+﻿using System;
 
+namespace GenericsMaxNumber
+{
+    class Program
+    {
         static void Main(string[] args)
         {
-            Console.WriteLine("Generics");
+            Console.WriteLine("Welcome to finding maximum number using generics");
         }
     }
 }
