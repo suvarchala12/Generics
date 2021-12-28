@@ -12,6 +12,8 @@ namespace FindMax
             maxNumbers.Show();
             double doubleoutput = MaxNumbers.MaximumFloatNumber(11.7, 26.47, 70.56);
             Console.WriteLine(doubleoutput);
+            string strigoutput = MaxNumbers.MaximumStringNumber("grapes", "apple", "mango");
+            Console.WriteLine(strigoutput);
         }
     }
 }
