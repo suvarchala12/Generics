@@ -1,12 +1,17 @@
 ﻿using System;
 
-namespace GenericsMaxNumber
+namespace FindMax
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to finding maximum number using generics");
+            Console.WriteLine("Find MAximum number between Three!");
+            MaxNumbers maxNumbers = new MaxNumbers();
+            maxNumbers.MaxInt();
+            maxNumbers.Show();
+            double doubleoutput = MaxNumbers.MaximumFloatNumber(11.7, 26.47, 70.56);
+            Console.WriteLine(doubleoutput);
         }
     }
 }
